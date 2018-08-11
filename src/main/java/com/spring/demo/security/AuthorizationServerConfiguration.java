@@ -76,6 +76,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
                 .scopes("app")
 //                .autoApprove("webapp")
                 .accessTokenValiditySeconds(30);
+
     }
 
     @Override
